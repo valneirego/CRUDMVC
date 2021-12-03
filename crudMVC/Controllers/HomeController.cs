@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using crudMVC.Models;
-
+using crudMVC.Models.ViewModels;
 namespace crudMVC.Controllers
 {
     public class HomeController : Controller
