@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using crudMVC.Models;
 
 namespace crudMVC
 {
@@ -33,6 +35,11 @@ namespace crudMVC
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddDbContext<crudMVCContext>(options =>
+                   
+            options.UseMySql(Configuration.GetConnectionString("crudMVCContext"), builder =>
+builder.MigrationsAssembly("crudMVC")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
