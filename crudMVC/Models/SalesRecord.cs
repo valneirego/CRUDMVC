@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace crudMVC.Models
 {
-    public class SalesRercod
+    public class SalesRecord
     {
 
         public int Id { get; set; }
@@ -19,12 +19,12 @@ namespace crudMVC.Models
 
         public Seller Seller { get; set; }
 
-        public SalesRercod()
+        public SalesRecord()
         {
 
         }
 
-        public SalesRercod(int id, DateTime date, double amount, SaleStatus status, Seller seller)
+        public SalesRecord(int id, DateTime date, double amount, SaleStatus status, Seller seller)
         {
             Id = id;
             Date = date;

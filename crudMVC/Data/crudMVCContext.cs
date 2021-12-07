@@ -17,6 +17,6 @@ namespace crudMVC.Models
 
         public DbSet<Seller> Seller { get; set; }
 
-        public DbSet<SalesRercod> SalesRecord { get; set; }
+        public DbSet<SalesRecord> SalesRecord { get; set; }
     }
 }

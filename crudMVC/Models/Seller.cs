@@ -14,7 +14,7 @@ namespace crudMVC.Models
         public DateTime BirthDate { get; set; }
         public double BaseSalary { get; set; }
         public Department Department { get; set; }
-        public ICollection<SalesRercod> Sales { get; set; } = new List<SalesRercod>();
+        public ICollection<SalesRecord> Sales { get; set; } = new List<SalesRecord>();
 
         public Seller()
         {
@@ -31,13 +31,13 @@ namespace crudMVC.Models
             Department = department;
         }
 
-        public void AddSales (SalesRercod sr)
+        public void AddSales (SalesRecord sr)
         {
             Sales.Add(sr);
               
         }
 
-        public void RemoveSales(SalesRercod sr)
+        public void RemoveSales(SalesRecord sr)
         {
             Sales.Remove(sr);
         }
