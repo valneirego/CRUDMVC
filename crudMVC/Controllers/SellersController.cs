@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using crudMVC.Services;
 
 using crudMVC.Controllers;
+using crudMVC.Models;
 
 namespace crudMVC.Controllers
 {
@@ -23,6 +24,21 @@ namespace crudMVC.Controllers
             var list = _sellerService.FindAll();
                 
             return View(list);
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+
+        [ValidateAntiForgeryToken]
+
+        public IActionResult Create(Seller seller)
+        {
+            _sellerService.Insert(seller);
+            return RedirectToAction(nameof(Index));
         }
     }
 }
