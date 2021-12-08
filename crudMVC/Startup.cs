@@ -33,6 +33,8 @@ namespace crudMVC
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
+
+
             });
 
 
@@ -46,6 +48,8 @@ builder.MigrationsAssembly("crudMVC")));
             services.AddScoped<SeedingService>();
 
             services.AddScoped<SellerService>();
+
+            services.AddScoped<DepartmentService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

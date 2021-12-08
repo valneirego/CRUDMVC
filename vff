@@ -1,0 +1,71 @@
+[33mcommit 45dd229605f331da7e147f75256eca60c9b712a3[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: Valnei Rego <valneinfo@gmail.com>
+Date:   Tue Dec 7 10:51:10 2021 -0300
+
+    Criação simples de formulario
+
+[33mcommit c3e4ae74acc7f0aaa1b9d21f84b912f4fce322b6[m
+Author: Valnei Rego <valneinfo@gmail.com>
+Date:   Tue Dec 7 00:03:34 2021 -0300
+
+    SellerService and basic FindAll
+
+[33mcommit 1b383a9a38d422d85e9dfe005b7d282fa10d0c14[m
+Author: Valnei Rego <valneinfo@gmail.com>
+Date:   Mon Dec 6 22:20:33 2021 -0300
+
+    criando um sellers controlle
+
+[33mcommit ebd4db1350b469520e9dd78275cbaba3e7a9a733[m
+Author: Valnei Rego <valneinfo@gmail.com>
+Date:   Mon Dec 6 21:57:57 2021 -0300
+
+    Seeding Service
+
+[33mcommit d39d383d93d365448973353b0391abaa571929c7[m
+Author: Valnei Rego <valneinfo@gmail.com>
+Date:   Mon Dec 6 19:14:02 2021 -0300
+
+    Outras entidades e segunda migration
+
+[33mcommit f7f15c756aa2fc7975bfe0c84cbf091ae54e5fc6[m
+Author: Valnei Rego <valneinfo@gmail.com>
+Date:   Mon Dec 6 17:56:01 2021 -0300
+
+    Alterando o tema do bootstrap
+
+[33mcommit 6220a68625a13b11aba046a89b9b16e8abf8a67a[m
+Author: Valnei Rego <valneinfo@gmail.com>
+Date:   Mon Dec 6 17:45:34 2021 -0300
+
+    Adapitação para MySQL e a primeira migração
+
+[33mcommit dc3cf73b095bbc3dbfba791df2fdc1af2f29f21d[m
+Author: Valnei Rego <valneinfo@gmail.com>
+Date:   Mon Dec 6 16:42:47 2021 -0300
+
+    Deletando Departamento e view and controller
+
+[33mcommit 6141e89e2a7b4aae59adc252316630201af27ba2[m
+Author: Valnei Rego <valneinfo@gmail.com>
+Date:   Fri Dec 3 01:00:24 2021 -0300
+
+    First Model-Controller-View - Department
+
+[33mcommit b68e95c1a8633287ece5a221bc6c5764d928164f[m
+Author: Valnei Rego <valneinfo@gmail.com>
+Date:   Thu Dec 2 23:59:16 2021 -0300
+
+    Testando o controller e Páginas Razor
+
+[33mcommit ce2510eae4c6080310148b8e10d72a06f97dc702[m
+Author: Valnei Rego <valneinfo@gmail.com>
+Date:   Wed Dec 1 18:53:14 2021 -0300
+
+    Adicionar arquivos de projeto.
+
+[33mcommit 07c0f9c3c8039cc6b180eb92b3ba67d6d7835c3e[m
+Author: Valnei Rego <valneinfo@gmail.com>
+Date:   Wed Dec 1 18:53:11 2021 -0300
+
+    Adicionar .gitignore e .gitattributes.
